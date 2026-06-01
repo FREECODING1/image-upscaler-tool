@@ -197,14 +197,6 @@ if menu == "高画質":
         "画像のザラつきを減らします。"
     )
 
-    st.sidebar.markdown("""
-### おすすめ設定（印刷向け）
-
-- OpenCV拡大倍率：2〜3
-- シャープ強度：0.6〜0.8
-- ノイズ除去：5〜10
-""")
-
     paper_size = st.sidebar.selectbox(
         "印刷サイズ",
         [

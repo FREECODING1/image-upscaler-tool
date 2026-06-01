@@ -74,3 +74,19 @@ section[data-testid="stSidebar"] {
   color: #1e3a5f !important;
   font-weight: bold;
 }
+
+#MainMenu {
+  visibility: hidden;
+}
+
+.stDeployButton {
+  display: none;
+}
+
+footer {
+  visibility: hidden;
+}
+
+#stDecoration {
+  display: none;
+}
